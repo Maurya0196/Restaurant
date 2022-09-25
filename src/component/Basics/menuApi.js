@@ -10,7 +10,7 @@ const Menu = [
     },
     {
         id: 2,
-        image:"/images/allupakoida.jpg",
+        image:"images/allupakoida.jpg",
         name:"All Pakoda",
         category:"Lunch",
         price:"50 Rs",
