@@ -87,7 +87,7 @@
   }
   
   .card-title {
-    font-family: "Cormorant Garamond", serif;
+    font-family: sans-serif;
     font-size: 60px;
     font-weight: 300;
     line-height: 60px;
@@ -159,6 +159,14 @@
       justify-content: space-around;
     }
   }
+  @media (max-width: 767px) {
+    .card-title {
+      font-family: sans-serif;
+      font-size: 30px;
+    }
+  }
+
+
   
   /* ---------- Button styles ------------------ */
   
