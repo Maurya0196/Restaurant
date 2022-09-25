@@ -7,7 +7,7 @@ const Menu = [
         price:"25 Rs",
         description:"Lorem ipsum dolor sit amet consectetur adipisicing elit.Tenetur autem tempora cupiditate est doloremque? Ullam amet quasi,natus dignissimos consequuntur, modi consectetur omnis doloremque pariatur error corporis nemo necessitatibus? Ut!",
 
-    },
+    }, 
     {
         id: 2,
         image:"images/allupakoida.jpg",
