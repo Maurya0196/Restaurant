@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NavBar = ( {filterItem ,menuList } ) => { 
+const NavBar = ( {filterItem ,menuList } ) => {
   return (
     <>
          <nav className="navbar">
@@ -8,7 +8,7 @@ const NavBar = ( {filterItem ,menuList } ) => {
             { menuList.map((curElem) => {
               return(
                   <button className="btn-group__item" onClick={ () => filterItem(curElem) }>{curElem}</button>
-              );  
+              ); 
             })} 
           </div>
         </nav>
@@ -16,4 +16,4 @@ const NavBar = ( {filterItem ,menuList } ) => {
   )
 }
 
-export default NavBar;
+export default NavBar
